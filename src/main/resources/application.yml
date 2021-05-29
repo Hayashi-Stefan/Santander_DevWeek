@@ -2,3 +2,19 @@ server:
   port: 8080
   servlet:
     context-path: /bootcamp
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: postgres://cvemdwpvhsmcue:66ae78c942995469a37187026d793c05ff8352cd977115737a0e65a49ce5825f@ec2-52-21-252-142.compute-1.amazonaws.com:5432/d1ov1761mh7cnt
+    username: cvemdwpvhsmcue
+    password: 66ae78c942995469a37187026d793c05ff8352cd977115737a0e65a49ce5825f
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+
+application:
+  description: Projeto criado para o bootcamp DIO - Santander

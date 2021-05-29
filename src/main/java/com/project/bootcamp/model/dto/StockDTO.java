@@ -1,4 +1,4 @@
-package com.project.bootcamp.model;
+package com.project.bootcamp.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.v3.core.util.Json;
